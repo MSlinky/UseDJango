@@ -2,6 +2,23 @@
 ## Basic API using Django
 
 - **Fedora**
+  ### Dev evironment
+  - We used a virtual evironment to test Django
+  ```
+    sudo pip3.6 install virtualenv
+    mkdir folderDevEvironment
+    cd folderDevEvironment
+    virtualenv venv -p python3.6
+    source venv/bin/activate
+  ```
+  As result:
+  ```
+    (venv) [user@localhost folderDevEvironment]$
+  ```
+  - To deactivate just run in folderDevEvironment:
+  ```
+    deactivate
+  ```
   - Install MariaDB [https://www.if-not-true-then-false.com/2013/install-mariadb-on-fedora-centos-rhel/]
   - To set up MariaDB as Django´s database install:<br />
   ```
